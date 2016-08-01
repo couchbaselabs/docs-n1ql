@@ -1,0 +1,31 @@
+= INSERT
+
+The INSERT statement inserts new documents into a keyspace, bucket, or an index. It executes successfully only if a document with the same key does not already exist in the keyspace.
+
+== Syntax
+
+image :: https://github.com/couchbaselabs/query/blob/master/docs/diagram/insert.png
+
+....
+INSERT INTO _keyspace-ref_ [ _insert-values_ | _insert-select_ ] [ _returning-clause_ ]
+....
+
+== Semantics
+
+==== keyspace-ref
+
+
+==== keyspace
+
+
+==== insert-values
+
+
+== Examples
+
+== Best Practices
+
+== Performance
+
+== Monitoring
+
